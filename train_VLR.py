@@ -25,8 +25,8 @@ def get_args():
     parser.add_argument('--name', type=str, default='mimic report_retrievel_cnn_bert')
     parser.add_argument('--model-dir', type=str, default='./models')
     parser.add_argument('--output-dir', type=str, default='./output')
-    parser.add_argument('--pretrained', type=str, default='') #models/mcc/best_model.pth
-    parser.add_argument('--checkpoint', type=str, default='') #./models/report_retrievel_cnn_bert_012,3,4/checkpoint.pth
+    parser.add_argument('--pretrained', type=str, default='') 
+    parser.add_argument('--checkpoint', type=str, default='') 
     parser.add_argument('--dataset-dir', type=str, default='./data/')
     parser.add_argument('--train-folds', type=str, default='./data/mimic/train_mimic.txt')
     parser.add_argument('--val-folds', type=str, default='./data/mimic/val_mimic.txt')
